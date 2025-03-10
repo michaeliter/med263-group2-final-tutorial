@@ -20,5 +20,19 @@
   
   install.packages("ggpubr")
   install.packages("tidyr")
+  ```  
+- The next chunk will run successfully if the packages were installed successfully:
+  ```{r}
+  library(dplyr)
+  library(minfi)
+  library(limma)
+  library(qvalue)
+  library(EnhancedVolcano)
+  library(FlowSorted.Blood.EPIC)
+  library(tidyr)
+  library(ggpubr)
+  library(ggplot2)
+  library(IlluminaHumanMethylationEPICanno.ilm10b4.hg19)
+  library(biomaRt)
+  library(missMethyl)
   ```
-  
